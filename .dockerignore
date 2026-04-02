@@ -11,4 +11,9 @@ docker-compose.yml.example
 .github/**
 .vscode/**
 data/**
+.claude/**
 .venv
+grafana-data/**
+redis-data/**
+metrics.jsonl
+traces.jsonl
