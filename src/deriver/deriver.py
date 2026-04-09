@@ -153,7 +153,7 @@ async def process_representation_tasks_batch(
         response_model=PromptRepresentation,
         json_mode=True,
         max_input_tokens=settings.DERIVER.MAX_INPUT_TOKENS,
-        reasoning_effort="low",
+        reasoning_effort="medium",
         enable_retry=True,
         retry_attempts=3,
         trace_name="minimal_deriver",

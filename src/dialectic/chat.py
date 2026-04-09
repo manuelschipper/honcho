@@ -25,7 +25,7 @@ async def agentic_chat(
     query: str,
     observer: str,
     observed: str,
-    reasoning_level: ReasoningLevel = "low",
+    reasoning_level: ReasoningLevel = "medium",
     session_allowlist: list[str] | None = None,
     response_model: type[BaseModel] | None = None,
 ) -> str:
@@ -96,7 +96,7 @@ async def agentic_chat_stream(
     query: str,
     observer: str,
     observed: str,
-    reasoning_level: ReasoningLevel = "low",
+    reasoning_level: ReasoningLevel = "medium",
     session_allowlist: list[str] | None = None,
     response_model: type[BaseModel] | None = None,
 ) -> AsyncIterator[str]:

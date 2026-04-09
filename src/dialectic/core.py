@@ -68,7 +68,7 @@ class DialecticAgent:
         observer_peer_card: list[str] | None = None,
         observed_peer_card: list[str] | None = None,
         metric_key: str | None = None,
-        reasoning_level: ReasoningLevel = "low",
+        reasoning_level: ReasoningLevel = "medium",
         session_id: str | None = None,
         session_allowlist: list[str] | None = None,
     ):
